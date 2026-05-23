@@ -1,89 +1,57 @@
-# Velelo Technology Portal
+# Velelo Technology
 
-**Production URL:** [velelotechnology.co.za](https://velelotechnology.co.za)  
-**Status:** Live · Deploying to Edge Servers  
-**Design Language:** Sophisticated Minimalist · Tech Dark Mode
+Website for [velelotechnology.co.za](https://velelotechnology.co.za) — a web development agency based in South Africa.
 
 ---
 
-## Overview
+## About
 
-Velelo Technology is a South African digital agency delivering high-performance web applications, bespoke software solutions, and sleek minimalist interfaces engineered to scale. The portal serves as the primary client-facing surface for project inquiries, service packages, and onboarding.
+Velelo Technology builds websites and custom web applications for clients across South Africa. Services range from simple landing pages to dynamic, database-driven apps. The business is based in Bloemfontein and Cape Town.
 
 ---
 
-## Interface Preview
+## What's in this repo
 
-The production interface renders as follows in the browser:
+The main marketing/portfolio site. It includes:
 
-```
-┌─────────────────────────────────────────────────────────────────────┐
-│  VELELO.                                     Services   Get in Touch │
-├─────────────────────────────────────────────────────────────────────┤
-│                                                                     │
-│   We build elite digital architectures.                             │
-│                                                                     │
-│   High-performance web applications, bespoke software, and sleek    │
-│   minimalist interfaces tailored to scale your brand.               │
-│                                                                     │
-│   [ Start Your Project ]                                            │
-│                                                                     │
-│   ┌─────────────────────────────────────────────────────────────┐  │
-│   │ BASE PACKAGE                            Deployment Included  │  │
-│   │ Custom Dynamic Development                                   │  │
-│   │ Fully optimised, responsive application.                     │  │
-│   │                                                              │  │
-│   │ From R800                                                    │  │
-│   └─────────────────────────────────────────────────────────────┘  │
-│                                                                     │
-│   Initiate a Build                                                  │
-│   Your Name: [__________________]  Email: [_____________________]  │
-│   Project Brief & Details:                                          │
-│   [_________________________________________________________________]│
-│                                                                     │
-│   [ Send Project Requirements ]                                     │
-│                                                                     │
-├─────────────────────────────────────────────────────────────────────┤
-│  © 2026 Velelo Technology.                  BLOEMFONTEIN · CAPE TOWN │
-└─────────────────────────────────────────────────────────────────────┘
+- A hero section with a short pitch and CTA
+- A services/pricing section (Base Package from R800, deployment included)
+- A contact form where potential clients can describe their project
+
+---
+
+## Tech stack
+
+- HTML / CSS / JavaScript
+- Deployed to edge servers (see deployment notes below)
+
+> Update this section with your actual stack (Next.js, Astro, plain HTML, etc.)
+
+---
+
+## Getting started
+
+```bash
+git clone https://github.com/your-username/velelo-technology.git
+cd velelo-technology
+npm install
+npm run dev
 ```
 
----
-
-## Services
-
-**Base Package** — *From R800 · Deployment Included*  
-Custom dynamic development delivering a fully optimised, responsive web application. Ideal for startups and growing brands requiring a polished digital presence.
-
-Additional service tiers and bespoke engagements are available via the project inquiry form on the portal.
+> Update these commands to match your actual setup.
 
 ---
 
-## Project Inquiry
+## Deployment
 
-Prospective clients can initiate a build directly through the portal by submitting:
-
-- Full name
-- Email address
-- Project brief and requirements
-
-All submissions are reviewed and responded to promptly by the Velelo team.
-
----
-
-## Locations
-
-Velelo Technology operates across South Africa:
-
-- **Bloemfontein** — Free State
-- **Cape Town** — Western Cape
+The site deploys automatically on push to `main`. Production is live at [velelotechnology.co.za](https://velelotechnology.co.za).
 
 ---
 
 ## Contact
 
-Visit [velelotechnology.co.za](https://velelotechnology.co.za) to start your project or get in touch.
+For project inquiries, use the form on the website or reach out directly via the contact page.
 
 ---
 
-*© 2026 Velelo Technology. All rights reserved.*
+© 2026 Velelo Technology
