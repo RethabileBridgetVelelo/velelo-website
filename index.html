@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Velelo Technology</title>
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;600&display=swap');
+        body {
+            font-family: 'Space Grotesk', sans-serif;
+            background-color: #0a0a0a;
+        }
+    </style>
+</head>
+<body class="text-gray-100 min-h-screen flex flex-col justify-between selection:bg-[#ff007f] selection:text-white">
+
+    <header class="border-b border-zinc-900 bg-[#0a0a0a]/80 backdrop-blur-md sticky top-0 z-50 px-6 py-4 flex justify-between items-center max-w-6xl w-full mx-auto">
+        <div class="text-xl font-bold tracking-wider text-white">
+            VELELO<span class="text-[#ff007f]">.</span>
+        </div>
+        <nav class="flex gap-6 text-sm tracking-wide text-zinc-400">
+            <a href="#services" class="hover:text-white transition">Services</a>
+            <a href="#contact" class="hover:text-white transition">Get in Touch</a>
+        </nav>
+    </header>
+
+    <main class="max-w-4xl mx-auto px-6 py-16 flex-grow flex flex-col justify-center">
+        
+        <section class="mb-20 text-center md:text-left">
+            <h1 class="text-4xl md:text-6xl font-bold tracking-tight text-white mb-6 leading-tight">
+                We build elite digital architectures<span class="text-[#ff007f]">.</span>
+            </h1>
+            <p class="text-zinc-400 text-lg md:text-xl max-w-2xl font-light leading-relaxed mb-8">
+                High-performance web applications, bespoke software, and sleek minimalist interfaces tailored to scale your brand.
+            </p>
+            <a href="#contact" class="inline-block bg-white text-black font-semibold px-8 py-3.5 rounded-full hover:bg-[#ff007f] hover:text-white transition duration-300 transform hover:-translate-y-0.5 tracking-wide text-sm">
+                Start Your Project
+            </a>
+        </section>
+
+        <section id="services" class="mb-24 border border-zinc-900 bg-zinc-950/40 p-8 rounded-2xl max-w-xl mx-auto md:mx-0">
+            <div class="flex items-center justify-between mb-4">
+                <span class="text-xs uppercase tracking-widest text-[#ff007f] font-semibold">Base Package</span>
+                <span class="text-xs text-zinc-500 bg-zinc-900 px-3 py-1 rounded-full border border-zinc-800">Deployment Included</span>
+            </div>
+            <h3 class="text-2xl font-semibold text-white mb-2">Custom Dynamic Development</h3>
+            <p class="text-zinc-400 text-sm font-light mb-6">Fully optimized, responsive application tailored exactly to your business infrastructure requirements.</p>
+            <div class="flex items-baseline gap-2">
+                <span class="text-4xl font-bold text-white tracking-tight">From R800</span>
+                <span class="text-zinc-500 text-xs">one-off core setup</span>
+            </div>
+        </section>
+
+        <hr class="border-zinc-900 my-4">
+
+        <section id="contact" class="py-12 max-w-xl">
+            <div class="mb-8">
+                <h2 class="text-2xl font-semibold text-white mb-2">Initiate a Build</h2>
+                <p class="text-zinc-400 text-sm font-light">Fill out the details below. The project requirements will route straight to our development team inbox.</p>
+            </div>
+
+            <form action="https://api.web3forms.com/submit" method="POST" class="space-y-6">
+                
+                <input type="hidden" name="access_key" value="eb3b2513-e665-4543-ba95-9facd8419899">
+                
+                <input type="checkbox" name="botcheck" class="hidden" style="display: none;">
+
+                <div class="grid grid-cols-1 sm:grid-cols-2 gap-6">
+                    <div>
+                        <label class="block text-xs uppercase tracking-wider text-zinc-400 mb-2 font-medium" for="name">Your Name</label>
+                        <input type="text" name="name" id="name" required class="w-full bg-zinc-950 border border-zinc-800 rounded-lg px-4 py-3 text-white focus:outline-none focus:border-[#ff007f] transition text-sm">
+                    </div>
+                    <div>
+                        <label class="block text-xs uppercase tracking-wider text-zinc-400 mb-2 font-medium" for="email">Email Address</label>
+                        <input type="email" name="email" id="email" required class="w-full bg-zinc-950 border border-zinc-800 rounded-lg px-4 py-3 text-white focus:outline-none focus:border-[#ff007f] transition text-sm">
+                    </div>
+                </div>
+
+                <div>
+                    <label class="block text-xs uppercase tracking-wider text-zinc-400 mb-2 font-medium" for="message">Project Brief & Details</label>
+                    <textarea name="message" id="message" rows="5" required placeholder="Tell us about the application features you need..." class="w-full bg-zinc-950 border border-zinc-800 rounded-lg px-4 py-3 text-white focus:outline-none focus:border-[#ff007f] transition text-sm resize-none"></textarea>
+                </div>
+
+                <button type="submit" class="w-full bg-[#ff007f] hover:bg-[#d6006b] text-white font-medium py-3 rounded-lg transition duration-200 tracking-wide text-sm cursor-pointer">
+                    Send Project Requirements
+                </button>
+            </form>
+        </section>
+
+    </main>
+
+    <footer class="border-t border-zinc-900 py-8 px-6 max-w-6xl w-full mx-auto flex flex-col sm:flex-row justify-between items-center text-xs text-zinc-500 gap-4">
+        <div>&copy; 2026 Velelo Technology. All rights reserved.</div>
+        <div class="tracking-widest uppercase">Bloemfontein &bull; Cape Town</div>
+    </footer>
+
+</body>
+</html>
